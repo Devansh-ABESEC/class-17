@@ -1,0 +1,9 @@
+p{
+    text-align: center;
+    text-transform: lowercase;
+    background-color: bisque;
+}
+h6{
+    text-align: justify;
+    text-transform: capitalize;
+}
