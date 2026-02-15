@@ -1,16 +1,43 @@
 /* simple reset */ 
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }  
 /* layout */ 
-body { background: #f7f8fb; color: #111; padding: 20px; } 
+body { background:lightcyan; color: #111; padding: 20px; } 
 /* header (block element) */ 
 .site-header { 
   display: block;                 /* block */ 
-  background: #222; 
-  color: #fff; 
+  background:black; 
+  color:white; 
   padding: 12px; 
   text-align: center; 
   margin-bottom: 18px;            /* margin */ 
 }  
+.logo
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #222; 
+  color: white; 
+  padding: 15px 20px; 
+} 
+.nav-links { 
+  display: flex; 
+  list-style: none; 
+} 
+.nav-links li { 
+  margin: 0 15px; 
+} 
+ 
+.nav-links a { 
+  text-decoration: none; 
+  color: white; 
+  font-size: 1rem; 
+} 
 /* container */ 
 .container { max-width: 420px; margin: 0 auto; } 
 /* product card */ 
@@ -45,7 +72,7 @@ body { background: #f7f8fb; color: #111; padding: 20px; }
 .price-row { margin-bottom: 12px; } 
 .price { 
   font-weight: 700; 
-  color: #0b6b3a; 
+  color: green; 
   margin-right: 8px;              /* margin */ 
   display: inline;                /* inline */ 
 } 
@@ -59,8 +86,8 @@ body { background: #f7f8fb; color: #111; padding: 20px; }
   display: block;                 /* block button fills available width */ 
   width: 100%;                    /* width */ 
   padding: 10px;                  /* padding */ 
-  background: #0066cc;            /* color */ 
-  color: #fff; 
+  background: beige;            /* color */ 
+  color: black; 
   border: none; 
   border-radius: 4px;             /* border radius (visual) */ 
   cursor: pointer; 
