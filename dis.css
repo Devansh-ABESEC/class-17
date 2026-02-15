@@ -1,0 +1,12 @@
+/* button */ 
+.add-cart { 
+  display: block;                 /* block button fills available width */ 
+  width: 100%;                    /* width */ 
+  padding: 10px;                  /* padding */ 
+  background: beige;            /* color */ 
+  color: black; 
+  border: none; 
+  border-radius: 4px;             /* border radius (visual) */ 
+  cursor: pointer; 
+  font-size: 16px;                /* font */ 
+} 
