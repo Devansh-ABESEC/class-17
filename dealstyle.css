@@ -1,0 +1,65 @@
+body
+{
+ background-color: beige;
+}
+/* Navbar Styling */ 
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #222; 
+  color: white; 
+  padding: 15px 20px; 
+} 
+ 
+.logo { 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+} 
+ 
+.nav-links { 
+  display: flex; 
+  list-style: none; 
+} 
+ 
+.nav-links li { 
+  margin: 0 15px; 
+} 
+ 
+.nav-links a { 
+  text-decoration: none; 
+  color: white; 
+  font-size: 1rem; 
+} 
+.actions a { 
+  margin-left: 15px; 
+  color: white; 
+  text-decoration: none; 
+  font-weight: bold; 
+} 
+.container { max-width: 420px; margin: 0 auto; } 
+/* product card */ 
+.product-card { 
+  background: #fff; 
+  border: 1px solid #e0e4ef;      /* border */ 
+  padding: 12px;                  /* padding */ 
+  width: 100%;                    /* width */ 
+  height: auto;                   /* height (auto) */ 
+  border-radius: 6px; 
+}  
+/* image sizing */ 
+.product-image { 
+  width: 100%;                    /* width */ 
+  height: 200px;                  /* height */ 
+  object-fit: cover; 
+  display: block;                 /* block-level image */ 
+  margin-bottom: 10px; 
+  border: 1px solid #ddd;         /* border */ 
+  border-radius: 20px;
+} 
+/* text styling */ 
+.product-title { 
+  font-size: 18px;                /* text / font */ 
+  margin-bottom: 3px; 
+  padding-left: 180px;
+} 
